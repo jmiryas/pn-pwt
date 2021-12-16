@@ -990,6 +990,8 @@ ul.navbar-nav > li > a {
   left: 100%;
   margin-top: -2px;
   border-radius: 0;
+  overflow:scroll;
+  max-height: 300px;
 }
 
 .dropdown-submenu > a:after {
