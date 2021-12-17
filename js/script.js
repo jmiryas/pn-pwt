@@ -261,5 +261,13 @@ jQuery(function ($) {
 
 	});
 
+	$(document).ready(function () {
+		const latestPost = document.getElementsByClassName("post-title");
+	
+		for (let i = 0; i < latestPost.length; i++) {
+			const truncate = (input) => input.length > 5 ? `${input.substring(0, 100)}...` : input;
 
+			latestPost[i].lastElementChild.textContent = truncate(latestPost[i].lastElementChild.textContent);
+		}
+	});
 });

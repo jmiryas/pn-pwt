@@ -2481,6 +2481,10 @@ img.testimonial-thumb {
   padding: 20px 0 5px;
 }
 
+.latest-post-media {
+  height: 250px;
+}
+
 /* Footer
 ================================================== */
 /*- Footer common */
