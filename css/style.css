@@ -3549,3 +3549,10 @@ label {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+/* Pengadilan Negeri Purwokerto */
+
+.perkara:hover {
+  text-decoration: underline;
+  color: white;
+}
