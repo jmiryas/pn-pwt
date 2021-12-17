@@ -1264,6 +1264,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   position: relative;
   height: 100%;
   width: 100%;
+  background-color: #000;
+  opacity: 0.8;
 }
 
 .slide-title-box {
