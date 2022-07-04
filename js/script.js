@@ -1,6 +1,13 @@
 jQuery(function ($) {
 	'use strict';
 
+	document.getElementById("search-field").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+    		// event.preventDefault();
+			alert("Fitur search belum tersedia karena penelitian ini hanya berfokus pada front end.");
+  		}
+	});
+
 	/* ----------------------------------------------------------- */
 	/*  Fixed header
 	/* ----------------------------------------------------------- */
